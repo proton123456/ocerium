@@ -78,10 +78,10 @@ function Library.Main(Text, PARENT, keycode)
 	NameLabel.Position = UDim2.new(0.015, 0, 0, 2)
 	NameLabel.Size = UDim2.new(0, 195, 0, 29)
 	NameLabel.Font = Enum.Font.SourceSansBold
-	NameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	NameLabel.TextColor3 = Color3.fromRGB(255,179,25)
 	NameLabel.TextSize = 19
 	NameLabel.TextXAlignment = Enum.TextXAlignment.Left
-	NameLabel.Text = Text .. ' | UI Lib -> https://github.com/slf0Dev' -- give credits to owner ui lib
+	NameLabel.Text = Text .. ' | Script Hub
 
 	ImageButton.Parent = Topbar
 	ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
